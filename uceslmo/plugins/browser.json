@@ -1,0 +1,52 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "QuestionsApp"
+    },
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "QuestionsApp"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "QuestionsApp"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "QuestionsApp"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "QuestionsApp"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "QuestionsApp"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "QuestionsApp"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "QuestionsApp"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "QuestionsApp"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "QuestionsApp"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "QuestionsApp"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "QuestionsApp"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "QuestionsApp"
+    }
+  }
+}
