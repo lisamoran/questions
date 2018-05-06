@@ -42,6 +42,19 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=p
 
 }
 
+// create a custom popup
+var popup = L.popup();
+
+// create an event detector to wait for the user's click event and then use the popup to show them where they clicked
+// note that you don't need to do any complicated maths to convert screen coordinates to real world coordiantes - the Leaflet API does this for you
+function onMapClick(e) {
+	popup
+		.setLatLng(e.latlng)
+		.setContent("You clicked the map at " + e.latlng.toString())
+		.openOn(mymap);
+}
+// now add the click event detector to the map
+mymap.on('click', onMapClick);
 
 //document.getElementById('mapid').innerHTML="L.marker(latlng, {icon:testMarkerPink}).addTo(mymap).bindPopup("<b>"position.coords"</b>");"
 
